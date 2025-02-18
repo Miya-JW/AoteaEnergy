@@ -1,6 +1,6 @@
 import React  from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Dashboard from './pages/dashboard';
+import Dashboard from './pages/Dashboard';
 import Battery from './pages/Battery';
 import Solar from './pages/Solar';
 import Weather from './pages/Weather';
