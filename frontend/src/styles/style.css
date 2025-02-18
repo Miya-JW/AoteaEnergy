@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'HelveticaNenu';
+    src: url('./assets/fonts/HeleticaNenuMedium.otf') format('opentype');
+    font-weight: medium;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNenu';
+    src: url('./assets/fonts/HeleticaNenuLight.otf') format('opentype');
+    font-weight: light;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNenu';
+    src: url('./assets/fonts/HeleticaNenuBold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNenu';
+    src: url('./assets/fonts/HeleticaNenuThin.otf') format('opentype');
+    font-weight: thin;
+    font-style: normal;
+}
+
+:root {
+    --font-family: 'HelveticaNenu', sans-serif;
+    --text-color-dark: #4a4a4a;
+    --text-color-light: #F5F5F5F5;
+    --background-color-dark: #575757;
+    --background-color-light: #e9e9e9;
+    --yellow-color: #FFDF9E;
+    --red-color: #aa5a5a;
+    --green-color: #8c9d4e;
+    --blue-color: #356694;
+    --grey-color: #dedede;
+    --deactive-color: #afafaf;
+    --battery-transparent: #8c9d4e, transparent 30%;
+
+    --card2: conic-gradient(from 0deg at 0% 0%, rgba(35, 37, 41, 0.50) 57.62981414794922deg, rgba(46, 48, 52, 0.50) 81.64558947086334deg, rgba(150, 150, 150, 0.50) 304.23447132110596deg);
+
+}
+

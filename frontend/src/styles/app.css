@@ -1,0 +1,76 @@
+@import url('./style.css');
+@import url('./effect.css');
+@import url('./layout.css');
+@import url('./card.css');
+@import url('./background.css');
+@import url('./flexboxAndGrid.css');
+@import url('./sizing.css');
+@import url('./spacing.css');
+@import url('./typography.css');
+
+body {
+    font-family: var(--font-family);
+    background-image: url('../assets/image/background.png');
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    color: var(--text-color-light);
+    font-style: normal;
+}
+
+.mainPage {
+    display: flex;
+}
+
+/* side menu */
+.mainPage>div:first-child {
+    padding: 20px;
+    flex: 2;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+/* right part */
+.mainPage>div:last-child {
+    padding: 20px 40px;
+    flex: 8;
+    height: 100vh;
+
+}
+
+/* real time monitoring main page */
+.realTimeContainer {
+    margin-top: 80px;
+    width: 100%;
+    height: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1.8fr 1.2fr;
+    gap: 20px;
+    row-gap: 30px;
+    grid-template-areas:
+        'smartEnergyShare smartEnergyShare energyFlow'
+        'batteryOverview solarOverview weatherOverview';
+}
+
+.smartEnergyShare {
+    grid-area: smartEnergyShare;
+}
+
+.energyFlow {
+    grid-area: energyFlow;
+}
+
+.batteryOverview {
+    grid-area: batteryOverview;
+}
+
+.solarOverview {
+    grid-area: solarOverview;
+}
+
+.weatherOverview {
+    grid-area: weatherOverview;
+}
