@@ -4,7 +4,6 @@ import Dashboard from './pages/Dashboard';
 import Battery from './pages/Battery';
 import Solar from './pages/Solar';
 import Weather from './pages/Weather';
-import History from './pages/History';
 import GenerationAndUsage from './pages/GenerationAndUsage';
 import EnergyEfficiencyRatio from './pages/EnergyEfficiencyRatio';
 import GenerationEfficiency from './pages/GenerationEfficiency';
@@ -20,7 +19,7 @@ function App() {
         <Route path="/battery" element={<Battery/>} />
         <Route path="/solar" element={<Solar/>} />
         <Route path="/weather" element={<Weather/>} />
-        <Route path="/history" element={<History/>} />
+        <Route path="/history" element={<GenerationAndUsage/>} />
         <Route path="/generation-and-usage" element={<GenerationAndUsage/>} />
         <Route path="/energy-efficiency-ratio" element={<EnergyEfficiencyRatio/>} />
         <Route path="/generation-efficiency" element={<GenerationEfficiency/>} />
