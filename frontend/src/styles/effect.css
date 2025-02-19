@@ -1,0 +1,10 @@
+.transparent-card{
+    border-radius: 16px;
+    background:  conic-gradient(from 0deg at 0% 0%, rgba(35, 37, 41, 0.50) 57.62981414794922deg, rgba(46, 48, 52, 0.50) 81.64558947086334deg, rgba(150, 150, 150, 0.50) 304.23447132110596deg);
+    box-shadow: 0px 0px 1.307px 0px rgba(255, 255, 255, 0.70) inset, 0.653px 0.653px 0.653px 0px rgba(255, 255, 255, 0.50) inset, 0px 0px 9.802px 0px rgba(255, 255, 255, 0.20) inset, 0px 9.802px 19.604px 0px rgba(255, 255, 255, 0.20) inset;
+    backdrop-filter: blur(9.801980018615723px);  
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}

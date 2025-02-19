@@ -4,6 +4,7 @@ import Dashboard from './pages/Dashboard';
 import Battery from './pages/Battery';
 import Solar from './pages/Solar';
 import Weather from './pages/Weather';
+import History from './pages/History';
 import GenerationAndUsage from './pages/GenerationAndUsage';
 import EnergyEfficiencyRatio from './pages/EnergyEfficiencyRatio';
 import GenerationEfficiency from './pages/GenerationEfficiency';
@@ -16,13 +17,14 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Dashboard/>} />
-        <Route path="/Battery" element={<Battery/>} />
-        <Route path="/Solar" element={<Solar/>} />
-        <Route path="/Weather" element={<Weather/>} />
-        <Route path="/GenerationAndUsage" element={<GenerationAndUsage/>} />
-        <Route path="/EnergyEfficiencyRatio" element={<EnergyEfficiencyRatio/>} />
-        <Route path="/GenerationEfficiency" element={<GenerationEfficiency/>} />
-        <Route path="/FutureForecasting" element={<FutureForecasting/>} />
+        <Route path="/battery" element={<Battery/>} />
+        <Route path="/solar" element={<Solar/>} />
+        <Route path="/weather" element={<Weather/>} />
+        <Route path="/history" element={<History/>} />
+        <Route path="/generation-and-usage" element={<GenerationAndUsage/>} />
+        <Route path="/energy-efficiency-ratio" element={<EnergyEfficiencyRatio/>} />
+        <Route path="/generation-efficiency" element={<GenerationEfficiency/>} />
+        <Route path="/future-forecasting" element={<FutureForecasting/>} />
       </Routes>
     </Router>
   )

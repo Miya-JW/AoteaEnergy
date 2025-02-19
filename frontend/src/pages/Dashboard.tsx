@@ -12,7 +12,7 @@ const Dashboard: React.FC = () => {
     return (
         <div className='mainPage'>
             <SideBar />
-            <div className='cardBodyRight'>
+            <div>
                 <Header page={'realTime'} />
                 <div className='realTimeContainer'>
                     <SmartEnergyShare />
