@@ -20,8 +20,9 @@ const BatteryOverview: React.FC = () => (
         </div>
 
         {/* 电池电量图 */}
+        <div className='mt-10' style={{backgroundColor:'red',width:'100%',height:'8%'}}>This is Battery</div>
         {/* 用电图 */}
-
+        <div className='mt-30' style={{height:'70%', width:'100%',backgroundColor:'red'}}>This is BatteryUsageAndChargeTime </div>
 
     </div>
 );

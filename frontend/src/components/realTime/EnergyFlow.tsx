@@ -6,12 +6,12 @@ const EnergyFlow: React.FC = () => {
 
             <div className='text-center mt-30 font-20'>Energy Flow</div>
 
-            <div style={{height:'60%'}}>
+            <div className='mt-20' style={{height:'60%', width:'100%',backgroundColor:'red'}}>
                 {/* energy flow */}
             </div>
 
             {/* content */}
-            <div className='ml-50'>
+            <div className='ml-50 mt-20'>
                 <div className='flex-left'>
                     <div className='font-16'>Current Power Source:</div>
                     {/* TODO */}
