@@ -9,6 +9,12 @@
     justify-content: flex-start;
 }
 
+.flex-left-center {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .flex-center {
     display: flex;
     justify-content: center;
@@ -31,4 +37,5 @@
 .two-column-layout {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }

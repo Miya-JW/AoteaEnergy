@@ -3,5 +3,5 @@
 }
 
 .background-color-light{
-    color: var(--background-color-light);
+    background-color: var(--background-color-light);
 }
