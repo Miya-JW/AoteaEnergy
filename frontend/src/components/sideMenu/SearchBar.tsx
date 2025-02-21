@@ -5,7 +5,7 @@ const SideBar: React.FC = () => {
     return (
         <div className='flex'>
             <input type='text' placeholder='Search...' className='search-bar' />
-            <img src={Search} alt='search-icon' className='mt-50 ml-10 background-color-light' />
+            <img src={Search} alt='search-icon' className='mt-50 ml-10 ' />
         </div>
 
     );

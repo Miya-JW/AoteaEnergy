@@ -1,6 +1,7 @@
 import React from 'react';
 import ShareIcon from '../../assets/svg/share.svg';
 import SunnyIcon from'../../assets/svg/sunny.svg';
+import WeatherUVIntensity from '../diagrams/WeatherUVIntensity';
 
 const WeatherOverview: React.FC = () => {
     return (
@@ -22,7 +23,9 @@ const WeatherOverview: React.FC = () => {
             </div>
 
             {/* UV intensity */}
-            <div className='mt-20' style={{height:'50%', width:'100%',backgroundColor:'red'}}>This is WeatherUVIntensity </div>
+            <div className='mt-20' style={{height:'50%', width:'100%',backgroundColor:'red'}}>
+                <WeatherUVIntensity />
+            </div>
         </div>
     );
 };

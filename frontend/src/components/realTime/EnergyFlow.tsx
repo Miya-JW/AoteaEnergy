@@ -1,4 +1,5 @@
 import React from 'react';
+import EnergyFlowDiagram from '../diagrams/EnergyFlow';
 
 const EnergyFlow: React.FC = () => {
     return (
@@ -8,6 +9,7 @@ const EnergyFlow: React.FC = () => {
 
             <div className='mt-20' style={{height:'60%', width:'100%',backgroundColor:'red'}}>
                 {/* energy flow */}
+                <EnergyFlowDiagram/>
             </div>
 
             {/* content */}
