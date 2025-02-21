@@ -1,8 +1,7 @@
 import React from 'react';
 import Header from '../components/header/Header';
 import SideBar from '../components/sideMenu/SideMenu';
-import BackIcon from '../assets/svg/back.svg';
-import ShareIcon from '../assets/svg/share1.svg';
+import NavigationBar from '../components/header/NavigationBar';
 
 import SolarCurrentPowerOutput from '../components/diagrams/SolarCurrentPowerOutput';
 import SolarPanelHealthStatus from '../components/solarPage/SolarPanelHealthStatus';
@@ -17,13 +16,7 @@ const Solar: React.FC = () => {
             <div>
                 <Header page={'realTime'} />
 
-                <div className='mt-100 two-column-layout width-60'>
-                    <img src={BackIcon} alt='back' className='cursor-pointer' />
-                    <div className='flex'>
-                        <div className='font-40'>Solar</div>
-                        <img src={ShareIcon} alt='share' className='ml-30' />
-                    </div>
-                </div>
+                <NavigationBar page='solar' />
 
                 <div className='flex-column width-100 height-70 mt-100' >
 
