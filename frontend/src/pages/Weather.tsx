@@ -16,17 +16,23 @@ const Weather: React.FC = () => {
 
                 <NavigationBar page='weather' />
 
-                <div className='two-column-layout-top width-100 height-70 mt-100' style={{ backgroundColor: 'green' }}>
+                <div className='two-column-layout-top width-100 height-70 mt-100' >
 
                     {/* left */}
-                    <WeatherForecast />
+                    <div className='width-30 height-90 mt-50 ' >
+                        <WeatherForecast />
+                    </div>
+
 
                     {/* right */}
-                    <div>
-                        <div>
+                    <div className='flex-column-center width-70 height-90 mt-50 ml-50' >
+                        <div className='width-100 height-60 transparent-card' >
                             <WeatherUVIntensity />
                         </div>
-                        <WeatherSuggestion />
+                        <div className='width-100 height-30 mt-50 transparent-card' >
+                            <WeatherSuggestion />
+                        </div>
+
                     </div>
                 </div>
             </div>
