@@ -1,9 +1,18 @@
 import React from 'react';
+import Header from '../components/header/Header';
+import SideBar from '../components/sideMenu/SideMenu';
+import NavigationBarHistory from '../components/header/NavigationBarHistory';
 
 const EnergyEfficiencyRatio: React.FC = () => {
     return (
-        <div>
-            <h1>This is the EnergyEfficiencyRatio page</h1>
+        <div className='mainPage'>
+            <SideBar />
+            <div>
+                <Header page={'history'} />
+                <div className='historyContainer'>
+                    <NavigationBarHistory page='energy-efficiency-ratio' />
+                </div>
+            </div>
         </div>
     );
 };

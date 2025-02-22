@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/header/Header';
 import SideBar from '../components/sideMenu/SideMenu';
-import NavigationBar from '../components/header/NavigationBar';
+import NavigationBar from '../components/header/NavigationBarRealtime';
 
 import SolarCurrentPowerOutput from '../components/diagrams/SolarCurrentPowerOutput';
 import SolarPanelHealthStatus from '../components/solarPage/SolarPanelHealthStatus';

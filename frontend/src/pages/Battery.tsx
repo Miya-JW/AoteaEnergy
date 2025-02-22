@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/header/Header';
 import SideBar from '../components/sideMenu/SideMenu';
-import NavigationBar from '../components/header/NavigationBar';
+import NavigationBar from '../components/header/NavigationBarRealtime';
 
 import BatteryBig from '../components/diagrams/BatteryBig';
 import BatteryEstimatedRuntime from '../components/diagrams/BatteryEstimatedRuntime';
