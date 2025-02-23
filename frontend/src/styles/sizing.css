@@ -19,9 +19,15 @@
 .width-60{
     width: 60%;
 }
+.width-55{
+    width: 55%;
+}
 
 .width-50{
     width: 50%;
+}
+.width-45{
+    width: 45%;
 }
 
 .width-40{
@@ -91,6 +97,16 @@
 .size-40 {
     width: 40px;
     height: 40px;
+}
+
+.size-35 {
+    width: 35px;
+    height: 35px;
+}
+
+.size-30 {
+    width: 30px;
+    height: 30px;
 }
 
 .size-25{

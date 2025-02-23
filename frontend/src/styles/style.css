@@ -119,3 +119,31 @@ body {
     margin-top: 3px;
     margin-bottom: 3px;
 }
+
+.appliance {
+    width: 40px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #232526 0%, #414345 100%);
+}
+
+.energy-forecast {
+    border-radius: 4px;
+    background: var(--green, #8C9D4E);
+    width: 80%;
+    height: 30px;
+}
+
+.base-line {
+    border-radius: 4px 0px 0px 4px;
+    background: var(--card, linear-gradient(320deg, rgba(121, 130, 143, 0.50) 32.97%, rgba(96, 103, 113, 0.70) 50.86%, rgba(64, 69, 76, 0.80) 73.2%, #232529 93.88%));
+    width: 20%;
+    height: 30px;
+}
+
+.energy-forecast-line {
+    background: var(--selected, linear-gradient(138deg, #ABBAAB 0%, #FFF 95.72%));
+    width: 1px;
+    height: 30px;
+}
