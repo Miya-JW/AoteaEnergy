@@ -5,3 +5,13 @@
 .background-color-light{
     background-color: var(--background-color-light);
 }
+
+.background-menu {
+    border-radius: 8px;
+    background: linear-gradient(270deg, #30373D 0%, #282F39 31%, #5E6671 62.5%, #323941 100%);
+}
+
+.background-time {
+    border-radius: 8px;
+    background: linear-gradient(270deg, #30373D 0%, #282F39 31%, #5E6671 62.5%, #323941 100%);
+}

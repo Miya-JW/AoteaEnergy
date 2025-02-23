@@ -11,6 +11,9 @@
     margin-top: 100px;
 }
 
+.mt-70 {
+    margin-top: 70px;
+}
 .mt-50{
     margin-top: 50px;
 }
@@ -72,9 +75,15 @@
     margin-left: 10px;
 }
 
-
+.mr-50{
+    margin-right: 50px;
+}
 .mr-30{
     margin-right: 30px;
+}
+
+.mr-10{
+    margin-right: 10px;
 }
 
 
@@ -95,6 +104,10 @@
 
 .p-10-20{
     padding: 10px 20px;
+}
+
+.p-5-20{
+    padding: 5px 20px;
 }
 
 .line-gap-30{
