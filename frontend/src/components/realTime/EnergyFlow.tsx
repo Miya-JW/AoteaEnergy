@@ -1,5 +1,5 @@
 import React from 'react';
-import EnergyFlowDiagram from '../diagrams/EnergyFlow';
+import EnergyFlowDiagram from '../diagrams/EnergyFlowDiagram';
 
 const EnergyFlow: React.FC = () => {
     return (
@@ -7,7 +7,7 @@ const EnergyFlow: React.FC = () => {
 
             <div className='text-center mt-30 font-20'>Energy Flow</div>
 
-            <div className='mt-20' style={{height:'60%', width:'100%',backgroundColor:'red'}}>
+            <div className='mt-20 flex height-60 width-100' >
                 {/* energy flow */}
                 <EnergyFlowDiagram/>
             </div>

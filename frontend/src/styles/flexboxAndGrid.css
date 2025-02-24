@@ -33,6 +33,13 @@
     align-items: flex-start;
 }
 
+.flex-column-space-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .two-column-layout {
     display: flex;
     justify-content: space-between;

@@ -8,3 +8,34 @@
 .cursor-pointer{
     cursor: pointer;
 }
+
+.hidden{
+    display: none;
+}
+
+@keyframes horizontalSlide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(250px); /* 修改这个值来控制移动距离 */
+    }
+  }
+
+  .energy-flow-animate-horizontal {
+    animation: horizontalSlide 2s infinite ; /* 运行时间、重复模式等可自定义 */
+  }
+
+  @keyframes verticalSlide {
+    from {
+        transform: rotate(90deg) translateX(0);
+    }
+    to {
+      transform: rotate(90deg) translateX(230px); /* 修改这个值来控制移动距离 */
+    }
+  }
+
+  .energy-flow-animate-vertical {
+    animation: verticalSlide 2s infinite ; /* 运行时间、重复模式等可自定义 */
+  }
+
